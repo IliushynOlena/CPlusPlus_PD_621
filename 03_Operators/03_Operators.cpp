@@ -204,6 +204,12 @@ int main()
         cout << "Working day " << endl;
     }
 
+    if (day >= 1 && day <= 5) //and
+    if (day >= 1 || day <= 5)//or
+    {
+        cout << "Working day " << endl;
+    }
+
 
 
 

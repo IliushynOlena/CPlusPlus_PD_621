@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_Data_types", "02_Data_ty
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03_Operators", "03_Operators\03_Operators.vcxproj", "{EAB14F42-990C-4EDE-A3B8-4CDB9F53BDE9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04_EnumCycles", "04_EnumCycles\04_EnumCycles.vcxproj", "{EF6111BA-82BA-435D-9099-2B8EC8BB78CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{EAB14F42-990C-4EDE-A3B8-4CDB9F53BDE9}.Release|x64.Build.0 = Release|x64
 		{EAB14F42-990C-4EDE-A3B8-4CDB9F53BDE9}.Release|x86.ActiveCfg = Release|Win32
 		{EAB14F42-990C-4EDE-A3B8-4CDB9F53BDE9}.Release|x86.Build.0 = Release|Win32
+		{EF6111BA-82BA-435D-9099-2B8EC8BB78CB}.Debug|x64.ActiveCfg = Debug|x64
+		{EF6111BA-82BA-435D-9099-2B8EC8BB78CB}.Debug|x64.Build.0 = Debug|x64
+		{EF6111BA-82BA-435D-9099-2B8EC8BB78CB}.Debug|x86.ActiveCfg = Debug|Win32
+		{EF6111BA-82BA-435D-9099-2B8EC8BB78CB}.Debug|x86.Build.0 = Debug|Win32
+		{EF6111BA-82BA-435D-9099-2B8EC8BB78CB}.Release|x64.ActiveCfg = Release|x64
+		{EF6111BA-82BA-435D-9099-2B8EC8BB78CB}.Release|x64.Build.0 = Release|x64
+		{EF6111BA-82BA-435D-9099-2B8EC8BB78CB}.Release|x86.ActiveCfg = Release|Win32
+		{EF6111BA-82BA-435D-9099-2B8EC8BB78CB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

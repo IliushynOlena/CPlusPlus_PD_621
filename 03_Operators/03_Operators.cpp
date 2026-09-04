@@ -202,6 +202,8 @@ int main()
     case 4:
     case 5:
         cout << "Working day " << endl;
+        cout << "Working day " << endl;
+        cout << "Working day " << endl;
     }
 
     if (day >= 1 && day <= 5) //and

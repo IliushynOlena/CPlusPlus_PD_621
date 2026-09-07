@@ -17,10 +17,10 @@ int main()
 	//cout << Ukraine << endl;
 	////USA = 15; - const variable
 
-	//enum coins {penny = 1, nickel = 5, dime = 10,
-	//quarter = 25, half = 50, dollar_coin = 100};
+	enum coins {penny = 1, nickel = 5, dime = 10,
+	quarter = 25, half = 50, dollar_coin = 100};
 
-	//enum genres{ Comedy, Fantasy, Novel, Opovidania, FairyTales};
+	enum genres{ Comedy, Fantasy, Novel, Opovidania, FairyTales};
 
 	//int a;
 	//genres genre;
@@ -181,7 +181,7 @@ int main()
 
 	} while (key != 'e');
 
-	*/
+
 
 	for (int i = 0; i < 10; i++)
 	{
@@ -242,6 +242,26 @@ int main()
 		}
 
 	}
+		*/
+
+	//3.Дано N (N>0). Вводяться N чисел. 
+	// Знайти суму парних серед цих чисел. - while
+
+	int count_numbers;//7
+	cout << "Enter count numbers ";
+	cin >> count_numbers;
+	int i = 0;
+	int number;
+	int summa = 0;
+	while (i < count_numbers)
+	{
+		i++;
+		cout << "Enter " << i << " number : ";
+		cin >> number;
+		if (number %2 == 0)
+			summa += number;
+	}
+	cout << "Summa numbers = " << summa << endl;
 
 
 

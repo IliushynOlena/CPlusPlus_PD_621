@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04_EnumCycles", "04_EnumCyc
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05_IncludeCycles", "05_IncludeCycles\05_IncludeCycles.vcxproj", "{57C7C3E8-0B6A-4222-852C-EB6DD7122852}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06_Arrays", "06_Arrays\06_Arrays.vcxproj", "{DF16FE99-2368-4A58-8EA2-D6FB9D84CFE6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{57C7C3E8-0B6A-4222-852C-EB6DD7122852}.Release|x64.Build.0 = Release|x64
 		{57C7C3E8-0B6A-4222-852C-EB6DD7122852}.Release|x86.ActiveCfg = Release|Win32
 		{57C7C3E8-0B6A-4222-852C-EB6DD7122852}.Release|x86.Build.0 = Release|Win32
+		{DF16FE99-2368-4A58-8EA2-D6FB9D84CFE6}.Debug|x64.ActiveCfg = Debug|x64
+		{DF16FE99-2368-4A58-8EA2-D6FB9D84CFE6}.Debug|x64.Build.0 = Debug|x64
+		{DF16FE99-2368-4A58-8EA2-D6FB9D84CFE6}.Debug|x86.ActiveCfg = Debug|Win32
+		{DF16FE99-2368-4A58-8EA2-D6FB9D84CFE6}.Debug|x86.Build.0 = Debug|Win32
+		{DF16FE99-2368-4A58-8EA2-D6FB9D84CFE6}.Release|x64.ActiveCfg = Release|x64
+		{DF16FE99-2368-4A58-8EA2-D6FB9D84CFE6}.Release|x64.Build.0 = Release|x64
+		{DF16FE99-2368-4A58-8EA2-D6FB9D84CFE6}.Release|x86.ActiveCfg = Release|Win32
+		{DF16FE99-2368-4A58-8EA2-D6FB9D84CFE6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

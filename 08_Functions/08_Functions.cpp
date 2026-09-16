@@ -129,6 +129,11 @@ void setSecond()
 int main()
 {
     srand(time(0)); 
+    //  IsLeap(int year)  return true;
+    // if (year % 400 == 0) || (year % 4 == 0 && year % 100 != 0)
+    // day_in_month = [31,28,31,30,31,30,.....]
+    //21 05 2001 (дні)   -  16 09 2026(дні)  --> day month year
+
     int A = 10;
     cout << A << endl;
     cout << ::A << endl;

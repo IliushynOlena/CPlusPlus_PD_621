@@ -43,11 +43,11 @@ void selectSort(int arr[], int size)
 		}
 	}
 }
-void Sort(int arr[], int size, int parameter)
-{
-	if(parameter == 0)//sort ascing
-	if(parameter == 1)//sort descing
-}
+//void Sort(int arr[], int size, int parameter)
+//{
+//	if(parameter == 0)//sort ascing
+//	if(parameter == 1)//sort descing
+//}
 void BubbleSort(int arr[], int size)
 {
 	int temp;

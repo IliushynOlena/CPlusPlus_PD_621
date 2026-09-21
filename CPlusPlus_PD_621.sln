@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09_template_function", "09_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10_LinearSearch_Sort", "10_LinearSearch_Sort\10_LinearSearch_Sort.vcxproj", "{D66974C3-D0C1-4C20-985A-3D5F629845D7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11_Recursion_BinarySearchSort", "11_Recursion_BinarySearchSort\11_Recursion_BinarySearchSort.vcxproj", "{A9AC6BEC-7078-4D9B-A8DC-FCE59B6B4914}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -111,6 +113,14 @@ Global
 		{D66974C3-D0C1-4C20-985A-3D5F629845D7}.Release|x64.Build.0 = Release|x64
 		{D66974C3-D0C1-4C20-985A-3D5F629845D7}.Release|x86.ActiveCfg = Release|Win32
 		{D66974C3-D0C1-4C20-985A-3D5F629845D7}.Release|x86.Build.0 = Release|Win32
+		{A9AC6BEC-7078-4D9B-A8DC-FCE59B6B4914}.Debug|x64.ActiveCfg = Debug|x64
+		{A9AC6BEC-7078-4D9B-A8DC-FCE59B6B4914}.Debug|x64.Build.0 = Debug|x64
+		{A9AC6BEC-7078-4D9B-A8DC-FCE59B6B4914}.Debug|x86.ActiveCfg = Debug|Win32
+		{A9AC6BEC-7078-4D9B-A8DC-FCE59B6B4914}.Debug|x86.Build.0 = Debug|Win32
+		{A9AC6BEC-7078-4D9B-A8DC-FCE59B6B4914}.Release|x64.ActiveCfg = Release|x64
+		{A9AC6BEC-7078-4D9B-A8DC-FCE59B6B4914}.Release|x64.Build.0 = Release|x64
+		{A9AC6BEC-7078-4D9B-A8DC-FCE59B6B4914}.Release|x86.ActiveCfg = Release|Win32
+		{A9AC6BEC-7078-4D9B-A8DC-FCE59B6B4914}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -2,12 +2,15 @@
 #include <iostream>
 using namespace std;
 
+//Написати рекурсивну функцію, яка виводить N зірок
+//у ряд, число N задає користувач.Проілюструйте ро -
+//боту функції прикладом.
 int Foo(int a)
 {
 	if (a == 0) {
 		return 0;//break;
 	}
-	cout << "Hello " << a << endl;
+	cout << "* " << a << endl;
 	a--;
 	 Foo(a);
 }
@@ -79,42 +82,56 @@ int BinarySearch(int arr[], int size, int key) //16
 		if (B > E) return -1;
 	}
 }
+//1. Написати рекурсивну функцію знаходження ступеня числа.
+int Stepin(int number, int step) // number = 3  step = 3
+{
+	/*int stepin = 1;
+	for (int i = 0; i < step; i++)
+	{
+		stepin *= number;
+	}
+	cout << stepin << endl;*/
+	if (step == 0)return 1;
+	cout << "Number " << number << " Step " << step << endl;
+	return number * Stepin(number, step - 1);
+}
 int main()
 {
-	Foo(10);
-	cout << Foo << endl;
-	//Пошук суми елементів масиву. 
-	const int size = 100;
-	int arr[size] = { 1,8,7,4,5,6,3,10,14,9 };
-	int summa = 0;
-	for (int i = 0; i < size; i++)
-	{
-		cout << arr[i] << " ";
-		summa += arr[i];
-	}
-	cout << endl;
-	cout << "Summa = "<< summa<<  endl;
-	summa = Summa(arr, size, 0);
-	cout << "Summa = " << summa << endl;
-	////Швидке сортування
-	InitArray(arr, size);
-	ShowArray(arr, size);
-	QuickSort(arr, size,0, size-1);
-	ShowArray(arr, size);
-	
-	int searchKey, indexFind;
-	cout << "Enter search key --> ";
-	cin >> searchKey;
-	indexFind = BinarySearch(arr, size, searchKey);
-	if (indexFind != -1)
-	{
-		cout << "Element [" << searchKey << "] find in index ["
-			<< indexFind << "]" << endl;
-	}
-	else
-	{
-		cout << "Element " << searchKey << " not found " << endl;
-	}
+	cout<< Stepin(3, 3);
+	//Foo(10);
+	//cout << Foo << endl;
+	////Пошук суми елементів масиву. 
+	//const int size = 100;
+	//int arr[size] = { 1,8,7,4,5,6,3,10,14,9 };
+	//int summa = 0;
+	//for (int i = 0; i < size; i++)
+	//{
+	//	cout << arr[i] << " ";
+	//	summa += arr[i];
+	//}
+	//cout << endl;
+	//cout << "Summa = "<< summa<<  endl;
+	//summa = Summa(arr, size, 0);
+	//cout << "Summa = " << summa << endl;
+	//////Швидке сортування
+	//InitArray(arr, size);
+	//ShowArray(arr, size);
+	//QuickSort(arr, size,0, size-1);
+	//ShowArray(arr, size);
+	//
+	//int searchKey, indexFind;
+	//cout << "Enter search key --> ";
+	//cin >> searchKey;
+	//indexFind = BinarySearch(arr, size, searchKey);
+	//if (indexFind != -1)
+	//{
+	//	cout << "Element [" << searchKey << "] find in index ["
+	//		<< indexFind << "]" << endl;
+	//}
+	//else
+	//{
+	//	cout << "Element " << searchKey << " not found " << endl;
+	//}
 
 
 

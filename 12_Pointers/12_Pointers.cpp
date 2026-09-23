@@ -27,8 +27,48 @@ int* FinMAx(int *a, int *b, int *c)
     else
         return c;
 }
+void InitArray(int* arr, int size)
+{
+    for (int i = 0; i < size; i++)
+    {
+        *(arr + i) = rand() % 100;
+    }
+}
+void ShowArray(int* arr, int size)
+{
+    for (int i = 0; i < size; i++)
+    {
+        cout << *(arr + i) << " ";
+    }cout << endl;
+}
+int* MaxElement(int* arr, int size)
+{
+    int* max = arr;
+    for (int i = 0; i < size; i++)
+    {
+        if (*(arr + i) > *max)
+        {
+            max = arr + i;
+        }
+    }
+    return max;
+}
 int main()
 {
+    const int size = 10;
+    int arr[size];
+    InitArray(arr, size);
+    ShowArray(arr, size);
+    int* maxElement = MaxElement(arr, size);
+    cout << "Max element in arr  address: " << maxElement << endl;
+    cout << "Max element in arr : " << *maxElement << endl;
+    *maxElement *= 2;
+    ShowArray(arr, size);
+
+
+
+
+
     int a = 5, b = 8, c = 9;
     cout << "a = " << a << " b = " << b << " c = " << c << endl;
     int max = FinMAx(a, b, c);

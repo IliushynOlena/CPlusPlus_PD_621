@@ -27,7 +27,7 @@ int* FinMAx(int *a, int *b, int *c)
     else
         return c;
 }
-void InitArray(int* arr, int size)
+void InitArray(int *arr, int size)
 {
     for (int i = 0; i < size; i++)
     {
@@ -80,7 +80,7 @@ int main()
     (*maxptr)++;
     cout << "MAx element : " << *maxptr << endl;
     cout << "a = " << a << " b = " << b << " c = " << c << endl;
-    /*
+    
     int a = 5;
     int* pa= &a;
 

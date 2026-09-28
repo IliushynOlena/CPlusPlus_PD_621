@@ -82,7 +82,7 @@ int main()
 		ShowArray(arr, size);
 	}
 	delete[]arr;
-	/*
+
 	int a = 10;
 
 	int * pa = new int(15);
@@ -111,7 +111,7 @@ int main()
 	delete pa;
 	delete pb;
 	delete pc;
-	*/
+
 	/*
 	//Pointers  ... Links
 	int a = 5;   // variable

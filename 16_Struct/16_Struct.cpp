@@ -74,8 +74,8 @@ int main()
 	ShowWorker(worker);
 
 	Worker newWorker = {};
-	//newWorker = InputWorker(newWorker);
-	//ShowWorker(newWorker);
+    newWorker = InputWorker(newWorker);
+	ShowWorker(newWorker);
 
 
 	Date event = { 26,10,2026, "October" };

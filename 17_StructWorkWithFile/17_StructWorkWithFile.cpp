@@ -80,10 +80,25 @@ void ChangeFilm(Film* films, int size, int id)
 		}
 	}
 }
+void AddNewFilm(Film* films, int& size, Film newFiml)
+{
+
+}
+
 int main()
 {
 	int choice;
 	char name[50];
+	Film* arr = new Film[5]{
+		{0, "Back to future","Tom Kruise", "Fantasy", 8.2, 102.99},
+	};
+
+
+	delete[]arr;
+
+
+
+
 	const int size = 6;
 	Film films[size] = {
 		{0, "Back to future","Tom Kruise", "Fantasy", 8.2, 102.99},

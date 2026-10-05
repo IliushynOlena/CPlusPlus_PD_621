@@ -46,6 +46,7 @@ void ShowArray(int* arr, int size)
 	}
 	cout << endl;
 }
+
 int* AddNewNumber(int* arr, int* size, int number)
 {
 
